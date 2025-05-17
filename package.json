@@ -1,53 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "revnotes",
-  "version": "1.0.5",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-builder",
-    "build:mac": "electron-builder --mac",
-    "build:linux": "electron-builder --linux"
-  },
-  "build": {
-    "appId": "com.tunombre.revnotes",
-    "productName": "RevNotes",
-    "files": [
-      "dist/**/*",
-      "src/**/*",
-      "img/**/*",
-      "main.js",
-      "preload.js"
-    ],
-    "extraResources": [
-      {
-        "from": "src/img",
-        "to": "img"
-      }
-    ],
-    "directories": {
-      "output": "release"
-    },
-    "mac": {
-      "target": [
-        "dmg",
-        "zip"
-      ],
-      "icon": "src/img/RevNotes-Logo.icns"
-    },
-    "linux": {
-      "target": [
-        "AppImage",
-        "deb"
-      ],
-      "icon": "src/img"
-    },
-    "win": {
-      "icon": "src/img/RevNotes-Logo_sin-fondo_.ico",
-      "target": [
-        "nsis"
-      ]
-=======
     "name": "revnotes",
     "version": "1.0.3",
     "main": "main.js",
@@ -91,7 +42,6 @@
             "perMachine": false,
             "allowToChangeInstallationDirectory": true
         }
->>>>>>> dfc6c580130963225e689052054f466fdb22aeda
     },
     "keywords": [
         "notes",
@@ -116,35 +66,4 @@
         "electron": "^33.2.1",
         "electron-builder": "^26.0.12"
     }
-<<<<<<< HEAD
-  },
-  "keywords": [
-    "notes",
-    "note-taking",
-    "desktop app",
-    "notepad",
-    "markdown",
-    "rich text editor",
-    "offline notes",
-    "note organizer",
-    "RevNotes",
-    "personal notes",
-    "simple notes",
-    "writing app",
-    "to-do",
-    "minimalist notes"
-  ],
-  "author": "Neiver Peralta / Revien",
-  "license": "ISC",
-  "description": "RevNotes es tu espacio digital para ideas, tareas, con soporte para formato enriquecido, imágenes y más.",
-  "devDependencies": {
-    "electron": "^33.2.1",
-    "electron-builder": "^26.0.12"
-  },
-  "dependencies": {
-    "quill": "^2.0.0-dev.4"
-  }
 }
-=======
-}
->>>>>>> dfc6c580130963225e689052054f466fdb22aeda
